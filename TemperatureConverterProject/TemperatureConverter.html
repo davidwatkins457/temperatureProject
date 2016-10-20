@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="temperature.css">
+    <title>TemperatureConverter</title>
+</head>
+<body>
+<div>
+<h1>Click one of the buttons to begin:</h1>
+
+<form class = "temperature" method="post">
+
+<input type = "text"
+       id = "c"
+       name = "celsius"
+       placeholder = "0"
+       >
+
+<label> degrees Celsius</label>
+<br>
+
+<input  type = "button"
+        class = "convert"
+        id = "inputCelsius"
+        value = "Convert Celsius to Fahrenheit"
+        onclick = "calculate()">
+</form>
+<br>
+<br>
+<label>equals</label>
+<br>
+<br>
+<form class="temperature" method="post">
+
+<input type = "text"
+       id = "f"
+       name = "fahrenheit"
+       placeholder = "0"
+       >
+
+<label> degrees Fahrenheit</label>
+<br>
+
+<input  type = "button"
+        class = "convert"
+        id = "convert"
+        value="Convert Fahrenheit to Celsius"
+        onclick = "calculate()">
+</form>
+</div>
+<img src="ftoc.png">s
+</body>
+</html>
